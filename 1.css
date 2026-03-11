@@ -1,0 +1,280 @@
+*{
+    background-color:black;
+}
+html{
+    scroll-behavior:smooth;
+}
+.navbar{
+
+    font-family: "Josefin Sans", sans-serif;
+    Display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:left;
+    gap:100px;
+    position: fixed;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+    .navbar a{
+
+    top:10%;
+    color:white;
+    text-decoration:none;
+    font-size:30px;
+    }
+
+section{
+    margin:0 auto;
+    height: 100vh;
+    padding-left: 220px;   /* space for left navbar */
+    padding-top: 80px;
+    justify-content: center;   /* horizontal center */
+    align-items: center;
+       max-width: 1000px;
+ 
+
+
+}
+/* SOCIAL ICONS TOP RIGHT */
+
+.social-icons{
+    position:absolute;
+    top:30px;
+    right:40px;
+    display:flex;
+    gap:20px;
+}
+
+.social-icons a{
+    font-size:25px;
+    color:white;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    color:#00bfff;
+    transform:scale(1.2);
+}
+
+    p2{
+
+    font-family: "Josefin Sans", sans-serif;
+    color:white;
+    font-size:30px;
+    position:absolute;
+    top:33%;
+    left:50%;
+   
+}
+p3{
+    font-family: "Oswald", sans-serif;
+    color:white;
+    font-size:70px;
+    position:absolute;
+    top:40%;
+    left:30%;
+    right:10%;
+    text-align:center;
+
+   
+}
+p4{
+
+    font-family: "Oswald", sans-serif;
+    color:white;
+    font-size:25px;
+    position:absolute;
+    bottom:27%;
+    left:30%;
+    right:10%;
+    text-align:center;
+   
+}
+
+.content{
+    font-size:30px;
+        position:absolute;
+    align-items:center;
+    margin: 0 auto;
+    padding: 40px 20px;
+    
+}
+h1{
+    color:white;
+    font-family: "Oswald", sans-serif;
+}
+
+p5{
+    font-family: "Josefin Sans", sans-serif;
+    color:white;
+    
+}  
+
+h2{
+    text-align:center;
+    font-family: "Oswald", sans-serif;
+    color:white;
+    font-size:40px;
+}
+.box-container{
+    display: flex;          
+    gap: 20px;              
+    justify-content: center;
+    flex-wrap: wrap;        
+}
+
+.box{
+    background-color: #5a0066;
+    color: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+}
+.box{
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    background-color:#3a0a48;
+    color:white;
+    transition:0.3s;
+    display:grid;
+
+
+}
+.box:hover{
+    transform:scale(1.05);
+} 
+h3{
+    text-decoration:none;
+    font-family: "Josefin Sans", sans-serif;
+    background:none;
+}
+p6{
+    background:none;
+}
+
+#box2{
+    background-color: #4a035e;
+}
+
+#box3{
+    background-color: #a705d4;
+}
+
+#box4{
+    background-color: #a705d4;
+}
+#box5{
+    background-color: #4a035e;
+}
+
+i{
+    color:white;
+}
+j{
+    color:white;
+}
+k{
+    color:white;
+}
+l{
+    color:white;
+}
+h10{
+    color:white;
+    font-family: "Oswald", sans-serif;
+    text-align:center;
+    justify-content:center;
+}
+p11{
+    color:white;
+    font-family: "Josefin Sans", sans-serif;
+    text-align:center;
+}
+
+h11{
+    color:white;
+    font-family: "Oswald", sans-serif;
+    text-align:center;
+}
+p13{
+    color:white;
+    font-family: "Josefin Sans", sans-serif;
+    text-align:center;
+}
+/* CONTACT SECTION */
+
+#contact{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+     background:none;
+}
+
+.contact-container{
+    max-width:800px;
+}
+
+.contact-title{
+    font-family:"Oswald", sans-serif;
+    font-size:45px;
+    color:white;
+    margin-bottom:20px;
+     background:none;
+}
+
+.contact-description{
+    font-family:"Josefin Sans", sans-serif;
+    color:white;
+    font-size:20px;
+    line-height:1.6;
+    margin-bottom:50px;
+     background:none;
+}
+
+/* contact cards */
+
+.contact-box{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.contact-item{
+    background:#1e1e1e;
+    padding:25px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    width:250px;
+    transition:0.3s;
+}
+
+.contact-item div{
+    background:none;   /* removes black box */
+}
+
+.contact-item i{
+    font-size:25px;
+    color:#00bfff;
+     background:none
+}
+
+.contact-item h3{
+    color:white;
+    font-family:"Oswald", sans-serif;
+     background:none
+}
+
+.contact-item p{
+    color:#ccc;
+    font-family:"Josefin Sans", sans-serif;
+     background:none
+}
